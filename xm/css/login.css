@@ -1,0 +1,221 @@
+
+/*头部*/
+
+.navs {
+    width: 100%;
+    height: 90px;
+    margin-top: 15px;
+}
+
+.nav_header {
+    position: relative;
+    height: 85px;
+}
+
+.header_logo {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 175px;
+    height: 53px;
+}
+
+.header_logo a {
+    display: block;
+    width: 175px;
+    height: 53px;
+    background: url("../img/icon_01.png") no-repeat -140px -25px;
+    text-indent: -99999px;/*文字的对齐方式*/
+    overflow: hidden;/*内容超出盒子隐藏*/
+}
+
+/*登录界面*/
+
+.login {
+    max-width: 100%;
+    min-width: 1200px;
+    height: 500px;
+    background-image: url("../img/bgp_03.png");
+}
+.login_left {
+    float: left;
+    margin-top: 30px;
+    margin-left: 95px;
+    width: 570px;
+    height: 480px;
+    text-align: center;
+}
+.login_left img {
+    width: 570px;
+}
+.left_search {
+    margin-top: 10px;
+    margin-left: 156px;
+    text-align: center;
+}
+
+.left_search input {
+    float: left;
+    width: 178px;
+    font-size: 18px;
+}
+
+.left_search button {
+    float: left;
+    width: 82px;
+    font-size: 20px;
+    color: white;
+    background-color: #bb1a18;
+}
+
+.left_search input,
+.left_search button {
+    height: 32px;
+    border: 0;
+}
+
+.login_right {
+    float: right;
+    margin-top: 60px;
+    margin-right: 116px;
+    padding-top: 22px;
+    width: 380px;
+    height: 365px;
+    background-color: #ffffff;
+}
+
+.ma {
+    margin: 0 38px;
+}
+
+.right_heard a {
+    font-size: 18px;
+    width: 150px;
+    height: 10px;
+}
+#list_01 {
+    padding-left: 10px;
+    padding-right: 68px;
+    border-right: 1px solid #ccc;
+}
+
+#list_02 {
+    padding-left: 67px;
+}
+
+.right_code {
+    display: none;
+    width: 220px;
+    height: 220px;
+    line-height: 220px;
+    margin-top: 50px;
+    margin-left: 80px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.right_code img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.right_prompt {
+    margin-top: 20px;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 10px;
+    border: 1px solid yellow;
+}
+
+/*用户名 密码框*/
+
+.right_user,
+.right_password {
+    width: 100%;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+
+.right_user {
+    margin-top: 10px;
+}
+
+.right_password {
+    position: relative;
+    margin-top: 16px;
+}
+
+.right_user img,
+.right_password .img_l {
+    float: left;
+    width: 37px;
+    height: 34px;
+}
+
+.right_password .img_r {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.right_user input,
+.right_password input {
+    width: 267px;
+    height: 34px;
+    border: 0;
+    font-size: 14px;
+}
+
+.right_check {
+    margin-top: 20px;
+}
+.right_check lable {
+    float: left;
+    vertical-align: middle;
+    color: #ccc;
+}
+.right_check a {
+    float: right;
+}
+
+form input[type="button"]{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #C9111A;
+    border: 0;
+    cursor: pointer;
+    color: white;
+}
+
+.right_footer {
+    margin-top: 32px;
+}
+
+.right_footer .footer_r {
+    float: left;
+}
+.footer_r a {
+    margin-right: 20px;
+}
+
+.right_footer a {
+    float: right;
+    line-height: 32px;
+    color: #91D2ED;
+}
+
+/*脚部*/
+
+.footer{
+    background-color: #fff;
+}
+.footer ul {
+    margin-bottom: 36px;
+}
+
+

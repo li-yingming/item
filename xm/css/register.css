@@ -1,0 +1,246 @@
+/*头部  */
+
+.nav_header {
+    position: relative;
+    height: 85px;
+}
+
+.header_logo {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 175px;
+    height: 53px;
+}
+
+.header_logo a {
+    display: block;
+    width: 175px;
+    height: 53px;
+    background: url("../img/icon_01.png") no-repeat -140px -25px;
+    text-indent: -99999px;/*文字的对齐方式*/
+    overflow: hidden;/*内容超出盒子隐藏*/
+}
+
+.navs {
+    width: 100%;
+    height: 90px;
+    margin-top: 15px;
+    border-bottom: 2px solid #B01919;
+}
+
+/*协议*/
+
+.agreement {
+    display: none;
+    width: 1000px;
+    height: 500px;
+    position: fixed;
+    border: #ebebeb solid 1px;
+    left: 50%;
+    top: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px #ddd;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
+.agreement-title {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 28px;
+    position: relative;
+}
+
+.agreement-title span {
+    position: absolute;
+    font-size: 12px;
+    right: -20px;
+    top: -30px;
+    background: #ffffff;
+    border: #ebebeb solid 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.agreement-content {
+    height: 350px;
+    overflow: auto;
+}
+
+.agreement-button {
+    width: 50%;
+    margin: 30px auto 0px auto;
+    line-height: 40px;
+    font-size: 16px;
+    background-color: #c81523;
+    border: #ebebeb 1px solid;
+    text-align: center;
+}
+
+.agreement-button a {
+    color: white;
+}
+
+.agreement-bg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, .3);
+}
+
+
+/*注册页表单*/
+
+.none {
+    display: none;
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81523;
+}
+
+.content {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.content ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.content ul li {
+    margin-bottom: 20px;
+}
+
+.content ul li .ipt {
+    width: 242px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+
+.li_pass,
+.li_againPass{
+    position: relative;
+}
+
+.li_pass .img_r,
+.li_againPass .img_r {
+    position: absolute;
+    top: 0;
+    right: 280px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.mess {
+    color: #ccc;
+}
+
+.fault {
+    color: #c81523;
+}
+
+.reply {
+    color: green;
+}
+
+.fault_icon,
+.reply_icon,
+.mess_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.mess_icon {
+    background: url("../img/mess.png") no-repeat;
+}
+
+.fault_icon {
+    background: url("../img/fault.png") no-repeat;
+}
+
+.reply_icon {
+    background: url("../img/reply.png") no-repeat;
+}
+
+.safe {
+    padding-left: 165px;
+}
+
+.safe span {
+    padding: 0 12px;
+}
+
+.safe_r {
+    background-color: #DE1111;
+    color: #fff;
+}
+
+.safe_z {
+    background-color: #40b83f;
+    color: #fff;
+}
+
+.safe_q {
+    background-color: #f79100;
+    color: #fff;
+}
+
+.agree {
+    padding-left: 95px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    color: #fff;
+    margin: 30px 0 0 110px;
+    border: 0;
+    background-color: #c81523;
+}
+
+.footer {
+    background-color: #fff;
+}

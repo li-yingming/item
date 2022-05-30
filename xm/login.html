@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>尚麦乐商城-登录界面</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="登录界面" />
+    <meta name="Keywords" content="网上购物,尚麦乐商城" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body>
+    <!--头部-->
+    <div class="navs">
+        <div class="bx">
+            <div class="nav_header">
+                <div class="header_logo">
+                    <h1><a href="#">尚麦乐商城</a></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--登录界面-->
+    <div class="login">
+        <div class="bx">
+            <div class="login_left">
+                <img src="img/bg_01_03.png" alt="">
+                <div class="left_search">
+                    <input type="text" name="search" value="手机" />
+                    <button>搜索</button>
+                </div>
+            </div>
+
+            <div class="login_right">
+                <div class="right_heard ma">
+                    <a href="javascript:;" id="list_01">扫描登录</a>
+                    <a href="javascript:;" id="list_02" class="style_red">账户登录</a>
+                </div>
+                <div class="right_code"><img src="img/code.png" alt=""></div>
+                <div class="right_prompt ma">公共场所不建议自动登录，以免账号丢失</div>
+                <form action="" method="get" class="ma">
+                    <div class="right_user">
+                        <img src="img/user_03.png" alt="">
+                        <input type="text" name="user" placeholder="手机号码" maxlength="11" required="required"
+                            class="user" />
+                    </div>
+                    <div class="right_password">
+                        <img src="img/pag_03.png" alt="" class="img_l">
+                        <input type="password" name="password" placeholder="密码" maxlength="12" class="password" />
+                        <img src="img/close.png" alt="" class="img_r">
+                    </div>
+                    <div class="right_check">
+                        <lable><input type="checkbox" name="check" />自动登录</lable>
+                        <a href="javascript:;">忘记密码？</a>
+                    </div>
+                    <div class="right_btn">
+                        <a href="#none"><input type="button" name="sub" class="over" value="登录" /></a>
+                    </div>
+                    <div class="right_footer">
+                        <div class="footer_r">
+                            <a href="javascript:;"><img src="img/a_01_03.png" alt=""></a>
+                            <a href="javascript:;"><img src="img/a_02_03.png" alt=""></a>
+                            <a href="javascript:;"><img src="img/bg_03_03.png" alt=""></a>
+                            <a href="javascript:;"><img src="img/bg_04_03.png" alt=""></a>
+                        </div>
+                        <a href="register.html">立即注册</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--脚部-->
+    <div class="footer">
+        <div class="bx">
+            <div class="mod_copyright">
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">联系客服</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">商家入驻</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">售后中心</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">手机优购</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">友情链接</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">销售联盟</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">代购社区</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">优购公益</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">English Site</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">China Site</a></li>
+                </ul>
+                <p>京ICP40000号公安备案888</p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/axios.min.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

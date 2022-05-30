@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>尚麦乐商城-注册页</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/register.css">
+
+</head>
+
+<body>
+    <!--头部-->
+    <div class="navs">
+        <div class="bx">
+            <div class="nav_header">
+                <div class="header_logo">
+                    <h1><a href="index.html">尚麦乐商城</a></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--协议-->
+    <div class="agreement">
+        <div id="title" class="agreement-title">用户协议
+            <span>
+                <a id="closeBtn" href="javascript:void(0);" class="close-login">X</a>
+            </span>
+        </div>
+        <div class="agreement-content">
+            <p>
+                <span>欢迎注册成为尚麦乐商城用户！在您注册过程中，您需要完成我们的注册流程并通过点击同意的形式在线签署以下协议，请您务必仔细阅读、充分理解协议中的条款内容后再点击同意（尤其是以粗体或下划线标识的条款，因为这些条款可能会明确您应履行的义务或对您的权利有所限制）。
+                </span>
+            </p>
+            <p>
+                <span><b>【请您注意】</b>如果您不同意以下协议全部或任何条款约定，请您停止注册。您停止注册后将仅可以浏览我们的商品信息但无法享受我们的产品或服务。如您按照注册流程提示填写信息，阅读并点击同意上述协议且完成全部注册流程后，即表示您已充分阅读、理解并接受协议的全部内容，并表明您同意我们可以依据协议内容来处理您的个人信息，并同意我们将您的订单信息共享给为完成此订单所必须的第三方合作方（详情查看）
+                </span>
+                <span>
+                    <a href=""><span class="style_red">《订单共享与安全》</span></a>）。
+                    如您对以下协议内容有任何疑问，您可随时通过《尚麦乐商城隐私政策》中的联系方式联系我们。
+                </span>
+            </p>
+            <p><span>如您在使用我们的产品或服务中与其他用户发生争议的，依您与其他用户达成的协议处理。</span></p>
+            <p><span><b>一、服务条款的确认及接受</b></span></p>
+            <p><span>1.尚麦乐商城网站(指(om及其移动客户端软件、应用程序,以下称“本网站"》各项电子服务的所有权和运作权归属于京东所有，本网站发生法律效力，同时您成为本网站正式用户。</span></p>
+            <p><span>2.根据国家法律法规变化及本网站运营需要，京东有权对本协议条款及相关规则不时地进行修改，修改后的内容-旦以任何形式公布不同意更新后的内容，应立即停止使用本网站:如您维续使用本网站，即视为知悉变动内容并同意接受。</span>
+            </p>
+            <p><span>协议内容中以加相方式显著标识的条款，请您着重阅读。您点击同意"按钮即视为总完全接受本协议,在点击之前请您再次确认已知悉并完全理解本协议的全部内容。</span></p>
+
+            <p><span><b>二、服务须知</b></span></p>
+            <p><span>1、本网站运鹏开发的操作系统通过国际互联网络为用户提供购买商品等服务。使本网站，您必须:</span></p>
+            <p><span>(1)自行配备上网的所需设备，包括个人手机、平板电脑、调制解调器、路由器等;</span></p>
+            <p><span>(2)自行负担个人上网所支付的与此服务有关的电话费用、网络费用等;</span></p>
+            <p><span>(3)选择与所安装终端设备相匹配的软件版本，包括但不限于ios、Android、Windows等多个京东发布的应用版本。</span></p>
+            <p><span>2、基基本网站所提供的网络服务的重要性,您确认并意:</span></p>
+            <p><span>(1)提供的注册资料真实、准确、完整、合法有效，注册资料如有变动的，应及时更新;
+                </span></p>
+            <p><span>(2)如果您提供的注册资料不合法、不真实、不准确、不详尽的，您需承担因此引起的相应责任及后果，并且京东保留终止您使用本网站各项服务的权
+                    利。</span></p>
+
+        </div>
+        <div class="agreement-button">
+            <a href="javascript:void(0);">同意并继续&nbsp;
+                <span class="btn_num"></span>
+            </a>
+        </div>
+    </div>
+    <!-- 遮盖层 -->
+    <div class="agreement-bg"></div>
+
+    <!--内容-->
+    <div class="registerarea bx">
+        <h3>注册新用户
+            <div class="login">我有账号，去<a href="login.html">登录</a></div>
+        </h3>
+        <div class="content">
+            <form action="login.html" method="post">
+                <ul>
+                    <li>
+                        <label for="">手机号：</label>
+                        <input type="tel" class="ipt ipt_tep" name="tep" maxlength="11" required="required"
+                            onkeyup="value=value.replace(/[^\d]/g,'')">
+                        <span class="mess">
+                            <i class="mess_icon"></i> 请输入正确的手机号码</span>
+                    </li>
+
+                    <li>
+                        <label for="">短信验证码：</label>
+                        <input type="text" class="ipt ipt_yz" name="yz" maxlength="5" required="required1">
+                        <span class="mess">
+                            <i class="mess_icon"></i> 请输入5位数的短信验证码</span>
+                    </li>
+
+                    <li class="li_pass">
+                        <label for="">登录密码：</label>
+                        <input type="password" class="ipt ipt_pass" name="password" maxlength="12" minlength="6"
+                            required="required2">
+                        <img src="img/close.png" alt="" class="img_r">
+                        <span class="mess">
+                            <i class="mess_icon"></i> 请输入6-12位数的密码</span>
+                    </li>
+
+                    <li class="safe none"> 安全程度
+                        <span class="safe_r">弱</span>
+                        <span class="safe_z">中</span>
+                        <span class="safe_q">强</span>
+                    </li>
+
+                    <li class="li_againPass">
+                        <label for="">确认密码：</label>
+                        <input type="password" class="ipt ipt_pass02" name="password" maxlength="12" minlength="6"
+                            required="required3">
+                        <img src="img/close.png" alt="" class="img_r">
+                        <span class="mess">
+                            <i class="mess_icon"></i> 请再一次输入密码</span>
+                    </li>
+
+                    <li class="agree">
+                        <input type="checkbox" name="check" checked />同意协议并注册
+                        <a href="javascript:;" class="agree_a">《知晓用户协议》</a>
+                    </li>
+
+                    <li>
+                        <input type="submit" value="提交注册" class="btn">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <!--脚部-->
+    <div class="footer">
+        <div class="bx">
+            <div class="mod_copyright">
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">联系客服</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">商家入驻</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">售后中心</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">手机优购</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">友情链接</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">销售联盟</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">代购社区</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">优购公益</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">English Site</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">China Site</a></li>
+                </ul>
+                <p>地址：上海市奉贤区瓦洪公路...&nbsp;&nbsp;邮编：465450&nbsp;&nbsp;
+                    电话：400-518 4000&nbsp;&nbsp;传真：60 88888&nbsp;&nbsp;邮箱：12345@qq.com
+                </p>
+                <p>京ICP40000号公安备案888</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

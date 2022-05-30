@@ -1,0 +1,477 @@
+
+/*头部*/
+.header_list {
+    position: absolute;
+    top: 25px;
+    left: 186px;
+    width: 80px;
+    height: 35px;
+}
+
+.header_search input[type="search"] {
+    float: left;
+    width: 382px;
+    height: 34px;
+    font-size: 12px;
+    color: #bfbfbf;
+    padding-left: 12px;
+    border: 1px solid #B01919;
+}
+
+
+.logo_line {
+    float: left;
+    font-size: 20px;
+    height: 32px;
+    margin-top: 12px;
+}
+
+.header_r {
+    position: absolute;
+    top: 25px;
+    right: -60px;
+}
+
+/*提交表单*/
+.submit_heard {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+form {
+    border: 1px solid #ccc;
+}
+
+form >div {
+    width: 1148px;
+    margin: 0 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+.submit_user {
+    margin-top: 40px;
+}
+
+.user_sp01 {
+    /*float: left;*/
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 24px;
+
+}
+
+.user_a01 {
+    float: right;
+    color: #91D2ED;
+}
+
+/*新增地址详情*/
+.exChange {
+    display: none;
+    overflow: hidden;
+    width: 800px;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 20px #ddd;
+    z-index: 9999;
+    transform: translate(-50%, 10%);
+}
+
+.exChange-x {
+    height: 32px;
+    padding-left: 10px;
+    font-size: 14px;
+    background-color: #ebebeb;
+}
+
+.exChange-x span{
+    position: absolute;
+    font-size: 14px;
+    right: 0px;
+    top: 0px;
+    background: #ffffff;
+    border: #ebebeb solid 1px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.message {
+    padding-left: 24px;
+    width: 100%;
+    line-height: 32px;
+    border: #ebebeb solid 1px;
+}
+
+.message li {
+    margin-top: 15px;
+}
+
+.message label .style_red {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.outer {
+    display: inline-block;
+    margin: 0px auto;
+    padding-left: 10px;
+}
+
+select {
+    padding:5px 0;
+}
+
+.message input {
+    height: 20px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.message .address,
+.addressEmail {
+    margin-left: 10px;
+}
+
+.message .form_span {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 15px 0 20px;
+    color: #ccc;
+    background-color: #F4F4F4;
+    border: 1px solid #ccc;
+}
+
+.message .tep {
+    width: 150px;
+    margin-left: 15px;
+}
+
+.message .email_p {
+    margin-left: 75px;
+    color: #ccc;
+}
+
+.message .addressNew_header {
+    margin: 0 10px;
+    color: #ccc;"
+}
+
+.message .span_address {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid #CCC;
+}
+
+.message .btn {
+    width: 150px;
+    height: 34px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 0 20px 75px;
+    border: 0;
+    background-color: #c81523;
+}
+
+
+
+
+.red_border {
+    display: inline-block;
+    width: 143px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+    margin: 18px 12px 0 45px;
+    border: 1px solid #ccc;
+}
+
+.user_sp02 {
+    line-height: 26px;
+    padding-top: 18px;
+}
+
+.user_address {
+    width: 143px;
+    height: 26px;
+    margin: 18px 12px 20px 45px;
+}
+
+.user_address i {
+    margin-left: 10px;
+}
+
+.submit_auto {
+    padding-bottom: 20px;
+}
+
+.submit_auto .red_border{
+    border: 1px solid #ccc;
+}
+
+.submit_play {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.play_sp01 {
+    margin: 18px 10px 0 45px;
+}
+
+.play_sp02 {
+    margin-top: 18px;
+    margin-left: -5px;
+}
+
+.play_sp03,
+.play_sp04 {
+    margin: 18px 10px 0 10px;
+}
+
+.play_sp01,
+.play_sp02,
+.play_sp03,
+.play_sp04 {
+    display: inline-block;
+    width: 96px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.red_auto {
+    border: 2px solid #C9111A;
+}
+
+.submit_list {
+    padding-bottom: 20px;
+}
+
+.submit_list .list_p01 {
+    margin-top: 24px;
+}
+
+.list_send {
+    background-color: #f4f4f4;
+    padding-bottom: 22px;
+}
+
+.list_send .send_p01 {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.list_send .user_sp01,
+.list_pho .user_sp01 {
+    font-size: 12px;
+}
+.list_send .user_sp02 {
+    margin-left: 48px;
+}
+
+.list_send .send_a01 {
+    float: right;
+    color: #91D2ED;
+    margin-top: 26px;
+    margin-right: 36px;
+}
+
+.list_pho {
+    height: 155px;
+    padding-top: 20px;
+    background-color: #feedef;
+}
+
+.pho_content {
+    position: relative;
+    height: 88px;
+    margin: 18px 0 0 45px;
+}
+
+.pho_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+}
+
+.pho_intro {
+    position: absolute;
+    top: 0;
+    left: 210px;
+    width: 340px;
+}
+
+.pho_sp {
+    line-height: 24px;
+
+}
+
+.pho_i01 {
+    display: block;
+    color: red;
+    padding-top: 20px;
+}
+
+.pho_i02,
+.pho_i03,
+.pho_i04{
+    position: absolute;
+    top: 12px;
+}
+
+.pho_i02 {
+    right: 200px;
+    color: red;
+}
+
+.pho_i03 {
+    right: 136px;
+}
+
+.pho_i04 {
+    right: 36px;
+}
+
+.submit_ticket {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border: 0;
+}
+
+.ticket_sp {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 24px;
+}
+
+.ticket_sp i {
+    margin-left: 10px;
+}
+
+.ticket_p {
+    margin: 20px 0 20px 45px;
+}
+
+.ticket_p span {
+    margin-right: 30px;
+}
+
+.ticket_a {
+    color: #91D2ED;
+}
+
+.ticket_div {
+    display: none;
+    width: 1140px;
+    border: 1px solid #ccc;
+}
+
+.divs {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.div_ul li {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.div_p {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 0;
+    background-color: #f0f0f0;
+}
+
+.divs_son {
+    height: 80px;
+}
+.divs_ulSon {
+    display: none;
+}
+
+.divs_ulSon li {
+    display: inline-block;
+    width: 60px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.son_f {
+    background-color: #fff;
+}
+
+.son_red {
+    border-bottom: 2px solid red;
+}
+
+.submit_money {
+    position: relative;
+    height: 90px;
+    margin-top: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+.submit_money table {
+    position: absolute;
+    top: 0;
+    right: 26px;
+    text-align: right;
+}
+
+.submit_money table tr td:nth-child(2){
+    padding-left: 70px;
+}
+
+.submit_all {
+    padding-top: 20px;
+    padding-right: 26px;
+    height: 60px;
+    text-align: right;
+    background-color: #F3F3F3;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.submit_subAll {
+    margin-top: 20px;
+    padding-right: 26px;
+    text-align: right;
+}
+
+.sub_All {
+    width: 142px;
+    height: 44px;
+    font-size: 18px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+
+}
+
+
+
